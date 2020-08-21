@@ -1,0 +1,159 @@
+*
+{
+    transition: .5s all ease-in-out
+}
+body
+{
+    padding-top:100px;text-transform: capitalize;font-family:cursive
+}
+a
+{
+    text-decoration: none;color: black;margin: 10px;background-color: ;display: block;
+}
+.main
+{
+    background-color: darkgray;height: 70px;position: fixed;width: 100% ;;display: block;z-index: 4 ;left: 0px;top: 0px
+}
+
+ li
+{
+   list-style: none; float: right ;background: 100px;font-size: 30px;padding: px;
+
+}
+
+li:hover
+{
+   ;background-color: #7c7777
+}
+.home
+{
+    float: left;background-color:azure;font-size: 20px
+}
+.home:hover
+{
+    background-color: azure
+}
+
+.container
+{
+    margin: 10px;display: block;
+}
+.slide
+
+{
+    ;width: 15%;height: 500px;display: inline-block;position: fixed;z-index: 3
+}
+.second
+
+{
+    ;width: 80%;height: 500px;margin-top: 40px;display: inline-block;margin-left: 100px;font-size: 20px;position: absolute;z-index: 2
+}
+   h1
+{
+    text-align: left;font-size: 30px
+}
+
+.about  ,.blog ,.projects ,.contact
+{
+    position: relative;left: -140px;margin:5px auto 5px -15px;display: block;height:50px;text-align: center;font-size: 20px;border-radius: 10px
+}
+
+
+.about
+{
+    background-color: aquamarine;   
+}
+.blog
+{
+    background-color: blue;   
+}
+.projects
+{
+    background-color: #00baff
+}
+.contact
+{
+    background-color: #96e683
+}
+.about:hover ,.blog:hover,.projects:hover,.contact:hover
+{
+    left: 0px;
+}
+dt
+{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 70px;
+  left: 0;
+  margin: 1em 0;
+}
+.hover-div
+{
+    display: block;margin-top: 1200px;background-image: url(../img/fixed.jpg);height: 400px;background-attachment: fixed;padding-top: 50px;max-height: 150px
+}
+.hover-p
+{
+    color: white;background-color: gray;width: 1000px;padding:20px;font-size: 13px;margin-left:  100px;max-height: 1px;overflow: hidden
+}
+.hover-p:hover
+{
+    overflow: visible;max-height: 100px
+}
+.hover-div-p
+{
+    font-size: 18px;background-color: rgba(255, 147, 0, 0.64);height: 30px;text-align: left;padding: 50px;margin: 140px 30px auto 30px
+;display: none}
+.hover-div:hover
+{
+max-height: 400px
+}
+.hover-div:after
+{
+    content: "div from css";font-size: 25px;background: rgba(224, 129, 33, 0.57);width: 85%;display: block;visibility: hidden;margin: 150px auto auto 100px;padding: 30px
+}
+.hover-div:hover:after
+{
+    visibility: visible
+}
+.relations
+{
+    background-image: url(../img/719.jpg);background-attachment: fixed;margin-top: 50px;padding: 35px;height: 500px
+}
+.parent
+{
+    background-color: rgba(255, 167, 0, 0.58);padding: 20px;height: 450px
+}
+.grand-child
+{
+    background-color: greenyellow;font-size: 30px
+}
+.sebling
+{
+    background-color: #37adad;font-size: 30px
+}
+.grand-child:hover  ~.sebling
+{
+    background-color: grey
+}
+.sebling:hover  ~.sebling
+{
+    background-color: grey
+}
+.last-div
+{
+    background-image: url(../img/hd-wallpapers-14.jpg);background-attachment: fixed;height: 150px;background-repeat: no-repeat;background-size: 100% ;padding: 200px 30px;margin-top: 100px
+}
+.last-p
+{
+    color: white;background-color: rgba(27, 194, 255, 0.44);padding: 20px
+}
+.last-p:first-letter
+{
+    color: blueviolet;border: solid black;border-radius: 10px;font-size: 25px;background-color: antiquewhite
+}
+.last-p:first-line
+{
+    color: red;background-color: grey
+}
