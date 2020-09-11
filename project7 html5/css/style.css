@@ -1,0 +1,191 @@
+/*-----------------rulles---------------*/
+*
+{
+    transition: .5s all ease-in-out;
+    
+}
+body
+{
+    padding-top:100px;
+    text-transform: capitalize;
+    font-family:cursive
+}
+a
+{
+    text-decoration: none;
+    color: black;margin: 10px;
+    background-color: ;
+    display: block;
+}
+/*------------------nav bar----------------------*/
+.main
+{
+    background-color: darkgray;
+    height: 70px;
+    position: fixed;
+    width: 100% ;
+    display: block;
+    z-index: 4 ;
+    left: 0px;
+    top: 0px
+}
+
+ li
+{
+   list-style: none;
+    float: right ;
+    background: 100px;
+    font-size: 30px;
+    font-size: 25px 
+}
+
+li:hover
+{
+   ;background-color: #7c7777
+}
+.home
+{
+    float: left;
+    background-color:azure;
+    font-size: 20px
+}
+.home:hover
+{
+    background-color: azure
+}
+
+/*----------------------------------slid bar---------------*/
+.slide
+
+{
+    ;width: 15%;
+    height: 500px;
+    display: inline-block;
+    position: fixed;
+    z-index: 3
+}
+
+   h1
+{
+    text-align: left;
+    font-size: 30px
+}
+
+.about  ,.blog ,.projects ,.contact
+{
+    position: relative;
+    left: -140px;
+    margin:5px auto 5px -15px;
+    display: block;
+    height:50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px
+}
+
+
+.about
+{
+    background-color: aquamarine;   
+}
+.blog
+{
+    background-color: blue;   
+}
+.projects
+{
+    background-color: #00baff
+}
+.contact
+{
+    background-color: #96e683
+}
+.about:hover ,.blog:hover,.projects:hover,.contact:hover
+{
+    left: 0px;
+}
+/*----------------------body-container------------------*/
+.body
+{
+    margin-left: 40px;   /*----------------to be far from slide bar-------*/
+    width: 94%; 
+}
+
+
+/*----------------detailes and time------------*/
+
+
+.container1
+{
+    padding: 50px;
+    background-image: url(../img/719.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+time
+{
+
+    background-color: rgba(63, 98, 128, 0.66);
+    color: white;
+    display: inline-block;
+    height: 20px;
+    width: 95%;
+    padding: 30px 
+}
+
+details
+{
+    
+    display: inline-block;
+    color: white;width: 100%
+}
+
+form
+{
+    margin: 40px auto;
+    background-image: url(../img/719.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 86%;
+    padding: 60px 80px
+}
+input
+{
+    width: 90%;
+    height: 60px;
+    background-color: gray;
+    opacity: 0.7;
+    border: solid;
+    border-radius: 5px
+}
+
+
+
+.last
+{
+    background-image: url(../img/719.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    color: white;
+    margin: 50px auto
+}
+.last section
+{
+    background: rgba(178, 99, 99, 0.62);
+    padding: 10px
+}                    
+                    /*-----------footer---------------*/
+
+
+footer
+{
+    background: black;
+   padding: 10px;
+    color: white;
+    text-align: center
+}
